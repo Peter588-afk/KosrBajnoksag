@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/teams"
+        android:icon="@drawable/baseline_sports_basketball_24"
+        android:title="teams" />
+    <item
+        android:id="@+id/musor"
+        android:icon="@drawable/baseline_view_week_24"
+        android:title="műsor" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profil" />
+
+</menu>

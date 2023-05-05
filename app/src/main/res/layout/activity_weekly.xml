@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".WeeklyActivity">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HetiMusor"
+        android:textColor="@color/lavender"
+        android:layout_centerInParent="true"
+        android:textSize="36sp" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottom_background"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_menu" />-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp">
+
+
+    <TextView
+        android:id="@+id/Heti"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="Heti meccsek"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Home"
+        android:onClick="back"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MON"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TUE"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="WED"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="THUR"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FRI"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SAT"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SUN"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/mon"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="20"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/tue"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="21"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/wed"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="22"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/thur"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="23"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/fri"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="24"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/sat"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="25"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="0dp"
+        android:id="@+id/sun"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="26"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+</LinearLayout>
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Műsoron"
+    android:textColor="@color/blue"
+    android:background="@null"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:textSize="20sp"/>
+
+    <ListView
+        android:id="@+id/eventListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">KosrBajnoksag</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+    <string name="lakersPlayers">Lebron James
+\nAntony Davis
+\nDAngelo Russel
+        \nMalik Beasley
+    \nDennis Schröder
+    \nAustin Reaves
+    \nIV Lonnie Walker</string>
+
+    <string name="warriorsPlayers">Stephen Curry
+\nDraymond Green
+\nKlay Thompson</string>
+
+    <string name="netsPlayers">Ben Simmons
+\nNic Claxton
+\nMikal Bridges</string>
+
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="registration">Registration</string>
+    <string name="cancel">Cancel</string>
+    <string name="password_again">Password_again</string>
+    <string name="email_address">Email</string>
+    <string name="user_name">User_name</string>
+    <string name="email_c_m">Email Cím</string>
+
+
+</resources>
